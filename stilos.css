@@ -1,0 +1,59 @@
+body {
+    font-family: "Averia Gruesa Libre", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to bottom right, #d78f09, #42381b); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    animation: fadeIn 5s ease-in-out;
+}
+input[type="number"] {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border: 6px solid #ff5733;
+    border-radius: 5px;
+    border-color: #f51a1a;
+}
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 5s ease-in-out;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+button {
+    background: linear-gradient(to bottom right, #ff5733, #fc055b);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    animation: pulse 1s infinite;
+}
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgb(2, 2, 2);
+}
+  @keyframes fadeIn {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+  @keyframes pulse {
+    50% {
+      transform: scale(1.0);
+}
+}
+footer {
+    padding: 20px; 
+    background: linear-gradient(to bottom right,  #d78f09, #42381b); 
+    text-align: center;
+    animation: fadeIn 5s ease-in-out;
+}
